@@ -43,7 +43,7 @@ const Navbar = () => {
 
       {/* Navbar Links for Desktop */}
       <div className="hidden md:flex items-center gap-8">
-        <div className="font-sans text-white font-normal">Products</div>
+        <div className="font-sans text-white font-normal">How it works</div>
         <div className="font-sans text-white font-normal">Customers</div>
         <div className="font-sans text-white font-normal">Pricing</div>
         <div className="font-sans text-white font-normal">Learn</div>
