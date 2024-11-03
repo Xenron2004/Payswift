@@ -8,7 +8,7 @@ const Mission = () => {
   return (
     <div className="flex flex-col gap-16 items-center justify-center max-w-[668px] w-full h-auto px-4">
        <Helmet>
-        <title>Your App Name - Our Mission</title>
+        <title>Payswift - Our Mission</title>
         <meta name="description" content="Our mission is to support innovative companies by providing robust solutions for growth and financial efficiency." />
       </Helmet>
       <div className="flex flex-col gap-4 items-center text-center">
