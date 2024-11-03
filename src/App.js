@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
        <Helmet>
-        <title>Your App Name - Home</title>
+        <title>Payswift - Home</title>
         <meta name="description" content="Empower your business with fast invoicing, robust integrations, and cash flow management solutions." />
         <meta name="keywords" content="business, invoicing, cash flow, finance, payments" />
         </Helmet>
