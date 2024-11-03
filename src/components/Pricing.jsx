@@ -7,7 +7,7 @@ const Pricing = () => {
   return (
     <div className="w-full flex flex-col gap-16 items-center py-3">
        <Helmet>
-        <title>Payswift - Pricing</title>
+        <title>Payswift</title>
         <meta name="description" content="Affordable pricing plans designed to fit your business needs. Choose from Basic, Pro, and Advanced plans." />
       </Helmet>
       <div className="flex flex-col gap-[10px] items-center justify-start">
