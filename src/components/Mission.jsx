@@ -1,10 +1,16 @@
 
 
 import React from "react";
+import { Helmet } from "react-helmet";
+
 
 const Mission = () => {
   return (
     <div className="flex flex-col gap-16 items-center justify-center max-w-[668px] w-full h-auto px-4">
+       <Helmet>
+        <title>Your App Name - Our Mission</title>
+        <meta name="description" content="Our mission is to support innovative companies by providing robust solutions for growth and financial efficiency." />
+      </Helmet>
       <div className="flex flex-col gap-4 items-center text-center">
         <div className="text-HeadingBlue font-sans font-regular text-[16px]">
           OUR MISSION

@@ -10,10 +10,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center mt-[30px] py-[20px] px-10 rounded-40 bg-[#143454] border border-[#8BB3DB] max-w-[1300px] w-11/12 h-[72px] mx-auto">
+    <div className="flex justify-between gap-3 items-center mt-[30px] py-[16px] px-10 rounded-40 bg-[#143454] border border-[#8BB3DB] max-w-[1300px] w-11/12 h-[72px] mx-auto">
       {/* Logo */}
       <div className="flex items-center">
-        <img src={logo} alt="Payswift Logo" className="h-8 w-auto" />
+        <img src={logo} alt="Payswift Logo" className="h-6 w-auto" />
       </div>
 
       {/* Hamburger Icon */}
@@ -42,7 +42,7 @@ const Navbar = () => {
       </div>
 
       {/* Navbar Links for Desktop */}
-      <div className="hidden md:flex items-center gap-8">
+      <div className="hidden md:flex items-center justify-between gap-8">
         <div className="font-sans text-white font-normal">How it works</div>
         <div className="font-sans text-white font-normal">Customers</div>
         <div className="font-sans text-white font-normal">Pricing</div>
@@ -57,7 +57,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-[100px] left-0 w-full bg-[#143454] p-6 md:hidden flex flex-col items-start gap-6">
+        <div className="absolute top-[100px] left-0 w-full  p-6 md:hidden flex flex-col items-start gap-6">
           {/* Nav Links */}
           <div className="font-sans text-white font-normal">Products</div>
           <div className="font-sans text-white font-normal">Customers</div>
@@ -76,3 +76,11 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
+
+
+
+
