@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="flex flex-col gap-2 ">
         {/* Logo section */}
         <img src={Logo} className="w-[106px] h-[20px]" alt="Payswift Logo" />
-        <div className="font-sans font-medium text-[14px] max-w-[204px] w-full">4900 Hopyard Rd STE 100, Pleasanton, CA 94588</div>
+        <div className="font-sans font-medium text-[14px] max-w-[204px] w-full"> 413 W Fireweed Ln 100, SF, CA 94588</div>
       </div>
 
       <div className="flex flex-wrap   max-w-[500px] w-full    items-center justify-between">
